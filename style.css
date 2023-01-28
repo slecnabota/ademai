@@ -291,7 +291,9 @@ body.lock {
         font-size: 14px;
         max-width: 350px;
     }
-
+    .header-subtitle br{
+        display: none;
+    }
     .header-btn {
         padding: 14px 28px;
         font-size: 10px;
@@ -310,6 +312,7 @@ body.lock {
 
     .header-content {
         flex-direction: column;
+        justify-content: center;
         align-items: flex-start;
     }
 
